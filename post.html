@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post Name</title>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+
+
+	<style type="text/css">
+		.img-container{
+			max-width: 600px;
+		}
+
+		img{
+			width: 100%
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="nav-wrapper">
+
+		<!-- Link around dots-wrapper added after tutorial video -->
+		<a href="index.html">
+			<div class="dots-wrapper">
+				<div id="dot-1" class="browser-dot"></div>
+				<div id="dot-2" class="browser-dot"></div>
+				<div id="dot-3" class="browser-dot"></div>
+			</div>
+		</a>
+
+		<ul id="navigation">
+			<li><a href="index.html#contact">Contact</a></li>
+
+		</ul>
+	</div>
+
+	<div class="main-container">
+		<br>
+
+		<div class="img-container">
+			<img src="images/dash.jpg">
+		</div>
+		
+		<h3>Laboratory Management System</h3>
+
+		<p>This was a project I started when part of the course JovianML zero to Gans. I used the Kaggle provided Human Protein Dataset.The goal was to identify which proteins are in each image.
+		<br>
+		<br>
+		After some research, as well as the instructor’s advice, a pre-trained network, Resnet34, was used. The ResNet34 network is a highly deep network, being famous for dealing with images extremely well. 
+		<br>
+		<br>
+		Most of the transformations consist on changing the image by some aspect, either by rotation, flipping (horizontally or vertically), cropping or even changing the contrast and saturation (which showed no improvement for this particular case).
+		<br>
+		<br>
+		I used Batch Normalisation which was already implemented in the default architecture of Resnet34.  It normalises the weights of the activation layers after each batch, not allowing the weights to either become too large or too low, as high variance numbers can lead to overfitting or a slower training.
+		<br>
+		<br>
+		I worked on this course for 6 weeks learning from basics to Gans and this completed this project to qualify for course completion certificate.</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Deep learning(PyTorch)</li>
+			<li>- Normalization</li>
+			<li>- Resnet34</li>
+			<li>- ADAMW optimizer</li>
+			
+		</ul>
+
+
+		<h5>Human Protein</h5>
+		<div class="img-container">
+			<img src="images/lab-dash.jpg">
+		</div>
+
+		<h6>Technologies Used</h5>
+		<div class="img-container">
+			<img src="images/technologies.jpg">
+		</div>
+
+		<h5>Learned</h5>
+		<div class="img-container">
+			<img src="images/learned.jpg">
+		</div>
+
+		<h5>Summary Report</h5>
+		<div class="img-container">
+			<img src="images/summary.jpg">
+		</div>
+
+		<h5>Score Result</h5>
+		<div class="img-container">
+			<img src="images/score-result.jpg">
+		</div>
+
+	</div>
+
+</body>
+</html>
